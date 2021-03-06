@@ -7,8 +7,8 @@ This is a simple example of a backend for an e-commerce site built using Express
 ## Table of Contents
 
 - [User Story](###user_story)
+- [Acceptance Criteria](###acceptance_criteria)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Questions](#questions)
 ---
 ### User Story
@@ -42,21 +42,21 @@ Prerequisite: This app requires MySQL and Node.js.
 ```
 npm install
 ```
-3. Login to MySql:
+3. Login to MySql
 ```
 % mysql -u root -p
 % <enter password>
 ```
-Source the database:
+Source the database
 ```
 mysql> source db/schema.sql
 mysql> exit
 ```
-Seed the database:
+Seed the database
 ```
 %npm seeds/index.js
 ```  
-Start the server:
+Start the server
 ```
 % node server.js
 ```
