@@ -38,8 +38,10 @@ GIVEN a functional Express.js API
 
 Prerequisite: This app requires MySQL and Node.js.
 1. Clone the repo.
-2. Navigate to the app's root directory and run:
-```npm install```
+2. Navigate to the app's root directory and run
+```
+npm install
+```
 3. Login to MySql:
 ```
 % mysql -u root -p
