@@ -42,21 +42,22 @@ Prerequisite: This app requires MySQL and Node.js.
 ```
 npm install
 ```
-3. Login to MySql
+3. Create a `.env` file in the root directory using the [.env.example](./.env.example) template as an example. 
+4. Login to MySql
 ```
 % mysql -u root -p
 % <enter password>
 ```
-Source the database
+5. Source the database
 ```
 mysql> source db/schema.sql
 mysql> exit
 ```
-Seed the database
+6. Seed the database
 ```
-%npm seeds/index.js
+% npm seeds/index.js
 ```  
-Start the server
+7. Start the server
 ```
 % node server.js
 ```
