@@ -1,5 +1,16 @@
-# ecommerce-backend
+# Sequelize ORM E-commerce Back End
 
+## Description
+This is a simple example of a backend for an e-commerce site built using Express, Sequelize, MySql2 and dotenv.  
+- Link to video walkthrough: https://www.youtube.com/watch?v=oVG7Ab2kbJk
+---
+## Table of Contents
+
+- [User Story](###user_story)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Questions](#questions)
+---
 ### User Story
 
 AS A manager at an internet retail company
@@ -22,9 +33,36 @@ GIVEN a functional Express.js API
 - WHEN I test API POST, PUT, and DELETE routes in Insomnia Core
   - THEN I am able to successfully create, update, and delete data in my database
 
-//mockups in insomnia:
-The first animation shows GET routes to return all categories, all products, and all tags being tested in Insomnia Core
+---
+### Installation
 
-The second animation shows GET routes to return a single category, a single product, and a single tag being tested in Insomnia Core:
+Prerequisite: This app requires MySQL and Node.js.
+1. Clone the repo.
+2. Navigate to the app's root directory and run:
+```npm install```
+3. Login to MySql:
+```
+% mysql -u root -p
+% <enter password>
+```
+Source the database:
+```
+mysql> source db/schema.sql
+mysql> exit
+```
+Seed the database:
+```
+%npm seeds/index.js
+```  
+Start the server:
+```
+% node server.js
+```
+---
+### Questions
 
-The final animation shows the POST, PUT, and DELETE routes for categories being tested in Insomnia Core.
+If you have any questions, please contact repo owner:
+
+- [GitHub](https:/github.com/squeakymatter)
+
+
